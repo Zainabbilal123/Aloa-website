@@ -1,0 +1,127 @@
+*{
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+    height: 90px;
+}
+
+.nav-logo{
+    background-image: url(./cropped-cropped-aloa-1-125x42_90x.png);
+    width:90px;
+    height: 30px;
+    background-size: cover;
+}
+.nav-menu{
+   text-transform: uppercase;
+   width:70%;
+
+}
+.nav-menu a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+}
+.nav-menu :hover{
+    text-decoration: underline;
+    color: black;
+}
+.nav-selector svg{
+    padding-left: 20px;
+}
+.nav-selector{
+    
+}
+.nav-selector :hover{
+    transform: scale(1.1);
+}
+#main-pic{
+    background-image: url(./1shopify-cover_1500x.webp);
+background-size: cover;
+width: 99%;
+height: 500px;
+}
+#explore{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:80px;}
+    #explore button{
+        margin-top: 40px;
+        padding-top:18px;
+        padding-bottom: 18px;
+        padding-right: 38px;
+        padding-left: 38px;
+        background-color: white;
+        border: thin 0.1px;
+        transition: border-width 0.3s ease;
+        
+    }
+#explore button:hover{
+    border:solid, black;
+    border-width: 3px;}
+    .new-arrival{
+    font-size: xx-large;
+        font-weight: 800;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+.cardstype{
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
+ .card-img-top{
+    padding-left: 12px;
+    width: 258.3px;
+    height: 258px;
+    display: flex;
+    
+}
+    .card-img-top:hover{
+        transform: scale(1.2);
+        cursor:grab;
+    }
+    
+    
+    
+ 
+ .card-text{
+    padding-left: 12px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: smaller;
+ }
+ .cardtype2{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+ } 
+.cardtype3{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+ 
+
+ 
+
+    
+    
+
+    
+    
+
+    
+
+
+
