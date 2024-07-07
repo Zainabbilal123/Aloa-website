@@ -137,10 +137,10 @@ h2{
             padding: 20px;
 } 
 .card-img-top2{
-    margin-top: 4px;cc
+    margin-top: 4px;
     margin-left: 2px;
     width: 800px;
-    height: 700px;
+    height: 960px;
     grid-column: 2;
     grid-row: 1 / span 2;
     padding: 20px;
@@ -153,15 +153,16 @@ h2{
 }
 .card-img-top3{
   margin-left: 520px; 
-  margin-top: 23px;
-  width: 350px;
+  margin-top: 22px;
+  width: 390px;
 }
 .card-text2{
     margin-left: 21px;}
     .card-img-top4{
         margin-left: 520px; 
-  margin-bottom: 40px;
-  width: 350px;
+  margin-bottom: 10px;
+  width: 390px;
+  height: 420px;
     }
   .card3{
     display: grid;
@@ -171,10 +172,10 @@ h2{
     padding: 20px;
   }   
 .card-img-top5{
-    margin-top: 4px;cc
+    margin-top: 4px;
     margin-left: 2px;
     width: 800px;
-    height: 700px;
+    height: 960px;
     grid-column: 2;
     grid-row: 1 / span 2;
     padding: 20px;
@@ -188,12 +189,13 @@ h2{
 .card-img-top6{
     margin-left: 520px; 
   margin-top: 23px;
-  width: 350px;
+  width: 390px;
 }
 .card-img-top7{
     margin-left: 520px; 
   margin-bottom: 40px;
-  width: 350px;
+  width: 390px;
+  height: 420px;
 }
 .card-text3{
     margin-left: 21px;
@@ -266,11 +268,7 @@ margin-top: 20px;
 }
 
 
-@media (max-width: 768px) {
-    .card2 {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }   
+
     
 
     
